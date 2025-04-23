@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Projects.css";
-import momNoteImg from '../assets/images/momsnote.avif';
-import bloodImg from '../assets/images/bdms1.jpg';
-import rentalImg from '../assets/images/findUrNest2.jpg';
+import chatVideo from '../assets/images/chat2.mp4';
+import UMSImg from '../assets/images/UMS.png';
+import phonepeImg from '../assets/images/phonepe.png';
 
 const Projects = () => {
   return (
@@ -10,73 +10,61 @@ const Projects = () => {
       <h1 className="projects-heading">Projects</h1>
 
       <div className="project-card">
-        <h2 className="project-title">Mom's Note – Recipe Sharing Website</h2>
+        <h2 className="project-title">Hotel Booking Chatbot – AWS-Powered Conversational AI</h2>
         <div className="project-content">
           <div className="project-description">
             <p>
-              A feature-rich recipe sharing platform designed for food lovers to explore, upload, and save their favorite recipes.
-              Users can browse trending recipes from an external API as well as community-submitted ones stored in a MongoDB database.
-              It offers a sleek UI with filtering, search functionality, and real-time form validation for submissions.
-              The design mimics a mom’s guidance, offering helpful cooking notes and tips throughout.
-              Responsive and mobile-friendly with React routing, reusable components, and state management.
-              Built using MERN stack with integration of the Spoonacular API for added variety.
+            Developed an AI-powered chatbot for seamless hotel booking using Amazon Lex, handling real-time user interactions. Integrated Amazon Bedrock for advanced AI capabilities, enhancing natural language understanding (NLU) and user experience. Stored and managed structured booking data using AWS S3 and DynamoDB, ensuring high availability and fault tolerance. Implemented AWS Lambda to automate backend workflows, improving response time by 40% and reducing server costs. Designed a scalable and serverless architecture, capable of handling thousands of user queries with minimal latency
             </p>
-            <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, Spoonacular API</p>
+            <p><strong>Tech Stack:</strong> Amazon Lex, AWS S3, Amazon Bedrock, Lambda, DynamoDB, AWS Lambda, serverless architecture, and fault tolerance</p>
             <div className="project-buttons">
-              <a href="https://github.com/Manikantadangeti89/Mom-s-Note---Recipe-Sharing" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
-              <a href="https://manikantadangeti89.github.io/Mom-s-Note---Recipe-Sharing/" target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
+              <a href=" " target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href=" " target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={momNoteImg} alt="Mom's Note" />
+          <video controls width="100%" className="rounded shadow">
+        <source src={chatVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
           </div>
         </div>
       </div>
 
       <div className="project-card">
-        <h2 className="project-title">Blood Donation Management System</h2>
+        <h2 className="project-title">University Management System</h2>
         <div className="project-content">
           <div className="project-description">
             <p>
-              This web application streamlines the process of managing blood donations and inventory in hospitals and blood banks.
-              Admins can register donors, monitor blood availability by type, and view patient requests in real-time.
-              It has a secure login system, dynamic tables, and alerts for low inventory levels.
-              The UI is clean, intuitive, and responsive with clear call-to-actions for all users.
-              Developed using core PHP and MySQL, with structured backend logic for scalability.
-              Ideal for small clinics or NGOs to digitally manage blood drives and donations.
+            Developed a responsive and interactive front-end application for a University Management System, designed to streamline the management of teacher and student data. The system allows users to input new records and perform edits on existing teacher and student profiles. The intuitive user interface ensures ease of navigation and efficient data entry, enhancing the overall user experience.
             </p>
-            <p><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS</p>
+            <p><strong>Tech Stack:</strong> React.js, HTML5, CSS3, JavaScript, Tailwind, Git/GitHub for version control.</p>
             <div className="project-buttons">
-              <a href="https://github.com/Manikantadangeti89/blood-donation-management-system" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href=" " target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
               <a href="#" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={bloodImg} alt="Blood Donation System" />
+            <img src={UMSImg} alt="UMS" />
           </div>
         </div>
       </div>
 
       <div className="project-card">
-        <h2 className="project-title">FindURNest – Rental Booking Website</h2>
+        <h2 className="project-title">PhonePe Clone</h2>
         <div className="project-content">
           <div className="project-description">
             <p>
-              A fully functional rental booking website allowing users to discover and reserve properties across different locations.
-              Includes user authentication, property filtering, booking confirmations, and owner dashboards.
-              Built with modern UI/UX principles ensuring ease of navigation and responsiveness on all devices.
-              Utilizes RESTful APIs to handle backend operations like user booking, listings, and feedback.
-              Clean database structure to manage users, listings, and booking history with MongoDB.
-              An ideal project to showcase full-stack proficiency using Node.js, Express, and MongoDB.
+            Built a fully responsive front-end clone of the popular digital payment platform PhonePe, replicating its core user interface and essential features. The application simulates digital wallet functionality, allowing users to experience the look and feel of a real-time transaction environment. The project focuses on UI/UX, navigation flow, and modular component design for an app-like experience.
             </p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+            <p><strong>Tech Stack:</strong> React.js, HTML5, CSS3, JavaScript, Tailwind CSS, Git/GitHub for version control.</p>
             <div className="project-buttons">
-              <a href="https://github.com/Manikantadangeti89/FindURNest" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href=" " target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
               <a href="#" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={rentalImg} alt="FindURNest" />
+            <img src={phonepeImg} alt="phonepe " />
           </div>
         </div>
       </div>

@@ -37,9 +37,9 @@ const Resume = () => {
         <h2 className="section-title">Projects</h2>
         <div className="resume-card">
           <ul>
-            <li><strong>Mom's Note – Recipe Sharing Website:</strong> React, MongoDB</li>
-            <li><strong>Blood Donation Management System:</strong> PHP, MySQL</li>
-            <li><strong>FindURNest – Online Rental Booking:</strong> MERN Stack</li>
+            <li><strong>Hotel Booking Chatbot – </strong> AWS-Powered Conversational AI</li>
+            <li><strong>University Management System</strong></li>
+            <li><strong>PhonePe Clone</strong> </li>
           </ul>
         </div>
       </div>
@@ -48,9 +48,10 @@ const Resume = () => {
         <h2 className="section-title">Certifications</h2>
         <div className="resume-card">
           <ul>
-            <li>HTML, CSS, and Javascript for Web Developers from Coursera</li>
-            <li>Server side JavaScript with Node.js from Coursera</li>
-            <li>Building Web Applications in PHP from Coursera</li>
+            <li>Internet of Things(IOT) - NPTEL</li>
+            <li>Capstone Training Project - Expertrons</li>
+            <li>Full-Stack Web Developement Internship - Skolar</li>
+            <li>Capstone and Practice Exam (AZ-500) - Coursera</li>
           </ul>
         </div>
       </div>

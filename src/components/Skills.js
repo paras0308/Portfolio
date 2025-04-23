@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Skills.css";
 import javaImg from '../assets/images/java.jpg';
-import cppImg from '../assets/images/cpp.jpg';
+import cppImg from '../assets/images/cpp.png';
 import htmlImg from '../assets/images/html.png';
 import cssImg from '../assets/images/css.png';
 import jsImg from '../assets/images/JavaScript.png';
@@ -11,6 +11,11 @@ import expressImg from '../assets/images/express.png';
 import phpImg from '../assets/images/php.svg';
 import mysqlImg from '../assets/images/mysql.png';
 import mongodbImg from '../assets/images/mongodb.png';
+import pythonImg from '../assets/images/python.jpg';
+import cImg from '../assets/images/c.png';
+import awsImg from '../assets/images/aws.png';
+import azureImg from '../assets/images/azure.png';
+import dockerImg from '../assets/images/docker.webp';
 
 
 const Skills = () => {
@@ -24,6 +29,8 @@ const Skills = () => {
           <div className="skill-icons">
             <img src={javaImg} alt="Java" />
             <img src={cppImg} alt="C++" />
+            <img src={pythonImg} alt="Python" />
+            <img src={cImg} alt="C" />
           </div>
         </div>
 
@@ -53,8 +60,16 @@ const Skills = () => {
             <img src={mongodbImg} alt="MongoDB" />
           </div>
         </div>
+        <div className="skill-category">
+          <h2>Platform</h2>
+          <div className="skill-icons">
+            <img src={awsImg} alt="AWS" />
+            <img src={azureImg} alt="Azure" />
+            <img src={dockerImg} alt="Docker" />
+          </div>
       </div>
     </div>
+  </div>
   );
 };
 

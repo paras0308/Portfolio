@@ -1,32 +1,32 @@
 import React from "react";
 import "../styles/Certifications.css";
-import HTMLCSSJS from "../assets/certifications/HTMLCSSJS.png";
-import Nodejs from "../assets/certifications/Nodejs.png";
-import PHP from "../assets/certifications/PHP.png";
-import DSA from "../assets/certifications/DSA.png";
-import CloudComputing from "../assets/certifications/CloudComputing.png";
+import iot from "../assets/certifications/iot.jpg";
+import expertrons from "../assets/certifications/expertrons.jpg";
+import skolar from "../assets/certifications/skolar.png";
+import AZ104 from "../assets/certifications/AZ-104.jpg";
+import AZ500 from "../assets/certifications/AZ-500.jpg";
 
 const Certifications = () => {
   const certificates = [
     {
-      image: HTMLCSSJS,
-      name: "HTML, CSS, and Javascript for Web Developers - Coursera",
+      image: iot,
+      name: "Internet of Things(IOT) - NPTEL",
     },
     {
-      image: Nodejs,
-      name: "Server side JavaScript with Node.js - Coursera",
+      image: expertrons,
+      name: "Capstone Training Project - Expertrons",
     },
     {
-      image: PHP,
-      name: "Building Web Applications in PHP - Coursera",
+      image: skolar,
+      name: "Full-Stack Web Developement Internship - Skolar",
     },
     {
-      image: CloudComputing,
-      name: "Cloud Computing - NPTEL",
+      image: AZ500,
+      name: "Capstone and Practice Exam (AZ-500) - Coursera",
     },
     {
-      image: DSA,
-      name: "LPU - Data Structures: Deep Dive Using C - E-Box",
+      image: AZ104,
+      name: "AZ-104: Networking, Monitoring, and Backup Strategies - Coursera",
     },
   ];
 

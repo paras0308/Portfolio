@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Home.css";
 import HomeImg from '../assets/images/home1.png';
+import bgimg from '../assets/images/bg.jpg';
 
 const Home = () => {
   const [text, setText] = useState('');
@@ -35,6 +36,15 @@ const Home = () => {
 
   return (
     <div className="home-container">
+      <img
+      src={bgimg}
+      height="100%"
+      width="100%"
+
+      style={{position :"absolute", opacity:"3%", overflow:"hidden"}}
+
+      
+      />
       <div className="home-left">
         <h1>Hi there,<br />I am <span className="highlight">Paras Dhiman</span></h1>
         <div className="dynamic-text">
