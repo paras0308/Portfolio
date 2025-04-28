@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/paras0308/Portfolio",
+  "homepage": "https://paras0308.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -12,7 +12,7 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.5.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
