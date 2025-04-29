@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://paras0308.github.io/Portfolio",
+  "homepage": "https://Manikantadangeti89.github.io/portfolio-site",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
