@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fd82155a.css",
+    "main.js": "/portfolio/static/js/main.a70002ec.js",
+    "static/media/chat2.mp4": "/portfolio/static/media/chat2.3a909f7b71c73179a2e1.mp4",
+    "static/media/my.jpg": "/portfolio/static/media/my.87ea1ccda1a6dcc69b29.jpg",
+    "static/media/iot.jpg": "/portfolio/static/media/iot.8c27cc899e290019b9f2.jpg",
+    "static/media/AZ-500.jpg": "/portfolio/static/media/AZ-500.487ab37bfc17a409f16a.jpg",
+    "static/media/AZ-104.jpg": "/portfolio/static/media/AZ-104.c6883c065a308e76ae73.jpg",
+    "static/media/phonepe.png": "/portfolio/static/media/phonepe.a9cbc919091d0e734c38.png",
+    "static/media/home1.png": "/portfolio/static/media/home1.de09123cd2baca0a8453.png",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.0c245da89a2ffc07fafa.jpg",
+    "static/media/JavaScript.png": "/portfolio/static/media/JavaScript.b35b06ee43eccfec3018.png",
+    "static/media/reel.jpg": "/portfolio/static/media/reel.3faaaae79f599538b323.jpg",
+    "static/media/UMS.png": "/portfolio/static/media/UMS.8a14adcb61f8c8050ddf.png",
+    "static/media/nss.jpg": "/portfolio/static/media/nss.507f1027b01a705a0e79.jpg",
+    "static/media/express.png": "/portfolio/static/media/express.2e461f017dc930af9f03.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.c945c0d222238ae2263d.png",
+    "static/media/skolar.png": "/portfolio/static/media/skolar.ff65aa410e0ecd432d93.png",
+    "static/media/prize.jpg": "/portfolio/static/media/prize.3a0c4888b4921afe1363.jpg",
+    "static/media/c.png": "/portfolio/static/media/c.6a1ec357fc2cd14e6ba4.png",
+    "static/media/expertrons.jpg": "/portfolio/static/media/expertrons.9e19cea9dfd464c0163a.jpg",
+    "static/media/php.svg": "/portfolio/static/media/php.9bda152757b9aea3390f112efdc4bdb8.svg",
+    "static/media/aws.png": "/portfolio/static/media/aws.316da603b6d42393e022.png",
+    "static/media/java.jpg": "/portfolio/static/media/java.0e28726a22ec88788fb6.jpg",
+    "static/media/css.png": "/portfolio/static/media/css.3f479584350aaf688826.png",
+    "static/media/nodejs.jpg": "/portfolio/static/media/nodejs.d775af3e252d7fa60b00.jpg",
+    "static/media/azure.png": "/portfolio/static/media/azure.f4c1eb66d81c302f7a88.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.495096f3c71200bb00ac.png",
+    "static/media/docker.webp": "/portfolio/static/media/docker.9691c2e4abae1394d348.webp",
+    "index.html": "/portfolio/index.html",
+    "main.fd82155a.css.map": "/portfolio/static/css/main.fd82155a.css.map",
+    "main.a70002ec.js.map": "/portfolio/static/js/main.a70002ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd82155a.css",
+    "static/js/main.a70002ec.js"
+  ]
+}
